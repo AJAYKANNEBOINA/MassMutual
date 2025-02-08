@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, useNavigate, useLocation } from 'react-router-dom';
 import Header from './components/Header';
 import InlineBackgroundImage from './components/InlineBackgroundImage';
@@ -12,16 +12,6 @@ import InfoCard from './components/InfoCard';
 function HomePage({ isLoggedIn }) {
   const navigate = useNavigate();
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    if (isLoggedIn) {
-      // If the user is logged in, navigate to the insurance form
-      navigate('/insurance-form');
-    } else {
-      // If the user is not logged in, redirect to the login page
-      navigate('/login');
-    }
-  };
 
   return (
     <>

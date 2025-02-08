@@ -11,7 +11,7 @@ const InsuranceForm  = () => {
         policyNumber: '', nomineeAge: '', phoneNumber:'', policyholderName:'',  additionalProtectionCosts: [],startDate: '', maturityDate: '', sumAssured: '',
         riders: '', policyStatus: '', coverageLimit: '', dependentCoverage: '', networkHospitals: '',
         roomRentLimit: '', daycareCoverage: '', buildingCoverage: '', contentCoverage: '',
-        fireProtection: '', theftProtection: '', thirdPartyLiability: '',phoneNumber: '',
+        fireProtection: '', theftProtection: '', thirdPartyLiability: '',
     });
      const [premium, setPremium] = useState(0);
     const [tax, setTax] = useState(0);
