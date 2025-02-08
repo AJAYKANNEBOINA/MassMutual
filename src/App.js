@@ -10,7 +10,6 @@ import Signup from './components/Signup';
 import InfoCard from './components/InfoCard';
 
 function HomePage({ isLoggedIn }) {
-  const navigate = useNavigate();
 
 
   return (

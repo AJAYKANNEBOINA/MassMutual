@@ -38,25 +38,25 @@ function Footer() {
           <div className="footer-column" style={columnStyle}>
             <h4 style={headerStyle}>Accounts</h4>
             <ul style={listStyle}>
-              <li><h5><a href="#" style={linkStyle}>Mobile App</a></h5></li>
-              <li><h5><a href="#" style={linkStyle}>Login</a></h5></li>
-              <li><h5><a href="#" style={linkStyle}>Sign Up</a></h5></li>
-              <li><h5><a href="#" style={linkStyle}>Digital Access</a></h5></li>
+              <li><h5><a href="/" style={linkStyle}>Mobile App</a></h5></li>
+              <li><h5><a href="/" style={linkStyle}>Login</a></h5></li>
+              <li><h5><a href="/" style={linkStyle}>Sign Up</a></h5></li>
+              <li><h5><a href="/" style={linkStyle}>Digital Access</a></h5></li>
             </ul>
           </div>
           <div className="footer-column" style={columnStyle}>
             <h4 style={headerStyle}>Company</h4>
             <ul style={listStyle}>
-              <li><h5><a href="#" style={linkStyle}>About Us</a></h5></li>
-              <li><h5><a href="#" style={linkStyle}>Newsroom</a></h5></li>
-              <li><h5><a href="#" style={linkStyle}>Sustainability</a></h5></li>
+              <li><h5><a href="/" style={linkStyle}>About Us</a></h5></li>
+              <li><h5><a href="/" style={linkStyle}>Newsroom</a></h5></li>
+              <li><h5><a href="/" style={linkStyle}>Sustainability</a></h5></li>
             </ul>
           </div>
           <div className="footer-column" style={columnStyle}>
             <h4 style={headerStyle}>Solutions</h4>
             <ul style={listStyle}>
-              <li><h5><a href="#" style={linkStyle}>For Individuals</a></h5></li>
-              <li><h5><a href="#" style={linkStyle}>For Employers</a></h5></li>
+              <li><h5><a href="/" style={linkStyle}>For Individuals</a></h5></li>
+              <li><h5><a href="/" style={linkStyle}>For Employers</a></h5></li>
             </ul>
           </div>
         </div>
@@ -72,7 +72,7 @@ function Footer() {
           textAlign: 'center', // Center-align for cleaner layout
           fontFamily: 'Arial, Helvetica, sans-serif', // Consistent font
           fontSize: '14px', // Slightly smaller text for legal details
-          color: '#333333', // Dark text color for readability
+          color: '/333333', // Dark text color for readability
         }}
       >
         {/* Logo Section */}
