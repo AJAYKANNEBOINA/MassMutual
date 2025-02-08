@@ -21,9 +21,9 @@ function Header({ isLoggedIn, handleLogout }) {
         </a>
         <nav className="main-nav">
           <ul>
-            <li><a href="https://www.massmutual.com/">For Individuals</a></li>
-            <li><a href="https://www.massmutual.com/business">For Businesses & Institutions</a></li>
-            <li><a href="https://www.massmutual.com/financial-professionals">For Financial Professionals</a></li>
+            <li><a href="/">For Individuals</a></li>
+            <li><a href="/">For Businesses & Institutions</a></li>
+            <li><a href="/">For Financial Professionals</a></li>
           </ul>
         </nav>
         <div className="header-actions">
